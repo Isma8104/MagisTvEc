@@ -35,7 +35,7 @@ const Inicio = () => {
           duration={500}
           className={styles.callToAction}
         >
-          Get a Quote
+          Descargar Ahora
         </Link>
       </div>
     </div>

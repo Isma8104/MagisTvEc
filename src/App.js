@@ -1,7 +1,7 @@
 import Inicio from "./Screens/Inicio";
 import Planes from "./Screens/Planes";
 import Descargar from "./Screens/Descargar";
-import Benefits from "./Screens/Benefits";
+import Cobertura from "./Screens/Cobertura";
 import Contact from "./Screens/Contact";
 import NavBar from "./Components/NavBar";
 
@@ -13,7 +13,7 @@ function App() {
       <Planes />
       <Descargar />
       <Contact />
-      <Benefits />
+      <Cobertura />
     </div>
   );
 }

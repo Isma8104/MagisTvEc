@@ -4,7 +4,8 @@ import styles from "./NavBar.module.css";
 import { AiOutlineMenu } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
 import { useScrollPosition } from "../Hooks/scrollPosition";
-import logoSVG from "../assets/MagisTvLogo.svg"; 
+import logoSVG from "../assets/MagisTvLogo.svg";
+import Button from "./Button"; 
 const NavBar = () => {
   const [navBarOpen, setNavBarOpen] = useState(false);
   const [windowDimension, setWindowDimension] = useState({
@@ -42,7 +43,7 @@ const NavBar = () => {
     },
     {
       id: 4,
-      link: "Benefits",
+      link: "Cobertura",
     },
   ];
 
@@ -109,15 +110,7 @@ const NavBar = () => {
               <div className={styles.border}></div>
             </div>
           ))}
-          <Link
-            onClick={() => setNavBarOpen(false)}
-            to="Contact"
-            smooth
-            duration={500}
-            className={styles.contactLink}
-          >
-            Contact
-          </Link>
+          <Button text="Prueba Gratis"/>
         </ul>
       )}
     </div>
