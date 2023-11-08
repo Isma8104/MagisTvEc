@@ -1,0 +1,49 @@
+.benefits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(45deg, #8882a5,#413b5e );
+  padding-bottom: 10px;
+  padding-top: 10px;
+  box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2); /* Sombreado sutil en la parte superior */
+}
+
+.benefits p {
+  color: #f1f1f1;
+  padding-top: 0px;
+  font-size: 1em;
+}
+
+.benefitTitle {
+  font-size: 1em;
+  font-weight: 400;
+  color: #f1f1f1;
+}
+
+.footer {
+  color: #fff;
+  padding: 20px;
+  text-align: center; /* Centrar el texto */
+  font-size: 10px;
+  line-height: 1.6;
+}
+
+.footer p {
+  margin: 0 0 0px;
+}
+
+/* Estilos para el enlace (si es necesario) */
+.footer a {
+  color: #00a8cc;
+  text-decoration: underline;
+}
+
+/* Estilos para el texto en negrita */
+.footer strong {
+  font-weight: bold;
+}
+
+/* Estilos para el texto en cursiva */
+.footer em {
+  font-style: italic;
+}

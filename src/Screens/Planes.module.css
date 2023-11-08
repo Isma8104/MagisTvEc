@@ -1,0 +1,94 @@
+/* Estilos para el contenedor principal */
+.title {
+  font-size: 24px;
+  color: #f1f1f1;
+  padding-top: 100px;
+}
+.title2 {
+  font-size: 24px;
+  color: #f1f1f1;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+.planes {
+  color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  background: linear-gradient(0deg, #1a1826, #413b5e);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  flex-wrap: wrap;
+}
+
+/* Estilos para el texto */
+.planes p {
+  color: #f1f1f1;
+  font-size: 1.7em;
+  text-align: center;
+  margin: 20px 0;
+  transition: color 0.3s; /* Agrega una transición suave para el cambio de color del texto */
+}
+
+/* Cambia el color del texto al pasar el cursor sobre el contenedor */
+
+
+
+
+/* Estilos para las suscripciones */
+.subscription {
+  border: 2px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+  flex: 1;
+  max-width: 300px;
+  border-radius: 10px;
+  transition: border-color 0.3s, transform 0.3s;
+}
+
+.subscription:hover {
+  border-color: #FFA933;
+  transform: scale(1.05);
+}
+
+/* Estilos para el botón */
+.button {
+  background-color: #FF5733;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #FFA933;
+}
+
+/* Estilos para la lista de elementos (si es necesario) */
+ul {
+  list-style: none;
+  padding: 0;
+}
+.plansHeader {
+  text-align: center; /* Centrar el texto "PLANES" */
+  margin-bottom: 20px; /* Agregar un margen inferior para separarlo de los recuadros */
+}
+
+.subscriptionsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* Ajusta estos estilos según tus preferencias para la disposición de los recuadros de suscripción */
+}
+@media (min-width: 100px) {
+  .planes p {
+    font-size: 2.5em;
+  }
+  .subscriptionsContainer :hover p {
+    color: #FFA933;
+  } 
+}

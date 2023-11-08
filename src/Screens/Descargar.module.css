@@ -1,0 +1,74 @@
+/* HowWeWork.module.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(0deg, #792c91, #1a1826);
+  padding: 10px;
+  color: #f1f1f1;
+
+}
+
+
+.title {
+  font-size: 24px;
+  color: #f1f1f1;
+  padding-top: 60px;
+
+}
+.title2 {
+  font-size: 24px;
+  color: #f1f1f1;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.deviceContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente fila si no caben en el ancho de la ventana */
+}
+
+.deviceBox {
+  border: 2px solid #ccc;
+  padding: 30px;
+  text-align: center;
+  margin: 10px;
+  flex: 1;
+  max-width: 300px; /* Establece el ancho máximo en un porcentaje */
+  border-radius: 10px;
+  transition: border-color 0.3s, transform 0.3s;
+}
+
+.deviceBox:hover {
+  border-color: #FFA933;
+  transform: scale(1.05);
+}
+
+.deviceContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.deviceImage {
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.downloadButton {
+  background-color: #508094;
+  color: #f1f1f1;
+  border: none;
+  padding: 100px 50px;
+  cursor: pointer;
+}
+
+.downloadButton:hover {
+  background-color: #FFA933;
+}
