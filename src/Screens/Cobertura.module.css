@@ -1,11 +1,12 @@
+/* Estilos para pantallas más grandes */
 .benefits {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(45deg, #8882a5,#413b5e );
+  background: linear-gradient(45deg, #8882a5, #413b5e);
   padding-bottom: 10px;
   padding-top: 10px;
-  box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2); /* Sombreado sutil en la parte superior */
+  box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .benefits p {
@@ -23,7 +24,7 @@
 .footer {
   color: #fff;
   padding: 20px;
-  text-align: center; /* Centrar el texto */
+  text-align: center;
   font-size: 10px;
   line-height: 1.6;
 }
@@ -46,4 +47,27 @@
 /* Estilos para el texto en cursiva */
 .footer em {
   font-style: italic;
+}
+
+/* Estilos para pantallas más pequeñas (móviles) */
+@media (max-width: 768px) {
+  .benefits {
+    padding: 10px;
+  }
+
+  .benefits p {
+    font-size: 0.8em; /* Ajusta el tamaño de fuente para dispositivos móviles */
+  }
+
+  .benefitTitle {
+    font-size: 0.8em; /* Ajusta el tamaño de fuente para dispositivos móviles */
+  }
+
+  .footer {
+    padding: 10px; /* Ajusta el espacio en el pie de página para dispositivos móviles */
+  }
+
+  .footer p {
+    font-size: 8px; /* Ajusta el tamaño de fuente en el pie de página para dispositivos móviles */
+  }
 }

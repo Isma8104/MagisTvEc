@@ -1,3 +1,4 @@
+/* Estilos para pantallas más grandes */
 .inicio {
   display: flex;
   flex-direction: column;
@@ -5,6 +6,7 @@
   padding: 20px 20px 200px;
   align-items: center;
 }
+
 .titleContainer {
   padding-top: 80px;
 }
@@ -28,4 +30,28 @@
 
 .ctaContainer {
   padding-top: 40px;
+}
+
+/* Estilos para pantallas más pequeñas (móviles) */
+@media (max-width: 768px) {
+  .inicio {
+    padding: 20px;
+  }
+
+  .titleContainer {
+    padding-top: 40px;
+  }
+
+  .inicio p {
+    font-size: 1.5em;
+  }
+
+  .callToAction {
+    padding: 15px;
+    margin-left: 0;
+  }
+
+  .ctaContainer {
+    padding-top: 20px;
+  }
 }
